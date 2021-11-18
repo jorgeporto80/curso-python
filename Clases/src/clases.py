@@ -61,20 +61,60 @@ cantidad += 1 # cantidad = cantidad + 1
 cantidad *= 2 # cantidad = cantidad * 2
 print(cantidad)
 
+# "H" in "Hola mundo"
+# True
+
 
 # Identidad
 numero1 = 3
 numero2 = 3
 
 print(id(numero1))
+print(type(numero1))
+print(numero1)
+
 print(id(numero2))
+print(type(numero2))
+print(numero2)
 
-# numero1 = 4
-# print(id(numero1))
+numero2 = 4
+print(id(numero2))
+print(type(numero2))
+print(numero2)
 
-# numero1 = 3
-# print(id(numero1))
+numero2 = 3
+print(id(numero2))
+print(type(numero2))
+print(numero2)
+
+
+
+numero1 = 4
+print(id(numero1))
+
+numero1 = 3
+print(id(numero1))
 
 print(numero1 is numero2)
 
+for i in range(2): 
+    numero = i
+    print(id(numero))
+    print(type(numero))
+    print(numero)
 
+for i in range(2): 
+    numero = i
+    print(id(numero))
+    print(type(numero))
+    print(numero)
+
+mi_lista1 = [1,2,3]
+mi_lista2 = [1,2,3]
+
+print(id(mi_lista1))
+print(type(mi_lista1))
+print(mi_lista1)
+print(id(mi_lista2))
+print(type(mi_lista2))
+print(mi_lista2)
