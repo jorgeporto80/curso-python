@@ -1,3 +1,1 @@
-
-
-sdasdasd
+mi_lista = []
