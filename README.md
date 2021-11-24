@@ -10,9 +10,4 @@ Python es un lenguaje de programación:
 - su nombre proviene de los humoristas británicos Monty Python.
 
 Creador: Guido van Rossum
-24/11/2021
-mi funcion
-Hola munod1
-Hola munod2
-Hola munod3
-Hola mundo5
+
