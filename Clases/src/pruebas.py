@@ -7,3 +7,4 @@
 # list.remove(x)
 # list.pop() / list.pop(i) -return value-
 # del 
+pepe
