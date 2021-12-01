@@ -201,3 +201,133 @@ while elemento != 4:
 else:
     print("Lo encontre")
 
+
+# LAS LISTAS
+# x = un valor / i = el indice)
+
+# list.append(x)
+# list.insert(i, x)
+
+# list.remove(x)
+# list.pop() / list.pop(i) -return value-
+# del 
+
+
+# Listas - Iterable / mutbale
+# https://docs.python.org/3/tutorial/datastructures.html
+#Fizz Buzz
+
+# def miFuncion(x):
+#     return x * 2
+
+# miLista = [12, True, "Hola mundo", [3,[3.5,3.6,True],5], (6,7,8), {"a":1},miFuncion]
+# #print(miLista)
+
+# #print(miLista[6](20))
+# #print(miLista[3][1][2])
+
+# #miLista[3][1][2] = "Hola Esteban"
+# #print(miLista)
+# #miLista = [1,2,3,4,5,6,7,8]
+# #print(miLista[1:-1])
+
+
+# # x = un valor / i = el indice)
+
+# # Se modifica llamando al índice miLista[2] = 10
+
+# # list.append(x)
+# # list.insert(i, x)
+
+# # list.remove(x)
+# # list.pop() / list.pop(i) -return value-
+# # del 
+
+# miLista = [1,2,3,4,5,6,7,8]
+# # miLista.append(9) 
+# # miLista.insert(2,True)
+
+# # miLista.remove(6)
+# # miLista.pop() Return value
+# # # miLista.pop(1) return value
+# # # del miLista[1:5]
+
+# # # valor = miLista.pop()
+# # # print(valor)
+
+# # # miLista2  = "Hola mundo"
+# # #miLista.extend(miLista2)
+# # # miLista.append(miLista2)
+# # miLista = [1,2,3,4,5,6,7,8]
+# # miLista2 = miLista.copy()
+# # miLista3 = miLista
+
+# # print(id(miLista))
+# # print(id(miLista2))
+# # print(id(miLista3))
+
+# # miLista3.pop()
+# # print(miLista)
+
+# #miLista = [elemento for elemento in iterable]
+# #miLista = [expresión for elemento in iterable if condicion]
+# #miLista = [expresión for elemento in iterable for elemento in iterable if condicion]
+# #miLista = [expresion if condicion else expresion2 for elemento in iterable]
+
+
+
+
+# miLista = [[1,2,3],[4,5,6]]
+# for sublista in miLista:
+#     for numero in sublista:
+#         print(numero)
+
+
+    
+
+
+
+# miLista = [numero * pares for numero in range(1,11) for pares in range(2,11,2)] 
+# print(miLista)
+
+
+
+
+
+
+#Fizz Buzz
+
+#números del 1-20
+#divisible 3 - "Fizz"
+#divisible 5 - "Buzz"
+# divisible por ambos 3y 5 FizzBuzz
+
+# miLista = []
+# indice = 0
+
+# for n in range(1,21):
+#     indice = n-1
+#     miLista.append(n)
+
+#     if n % 3 == 0 and n % 5 == 0:
+#         miLista[indice] = "FizzBuzz"
+#     elif n % 3 == 0:
+#         miLista[indice] = "Fizz"
+#     elif n % 5 == 0:
+#         miLista[indice] = "Buzz"
+
+# print(miLista)
+
+
+
+
+# FIZZBUZZ Óptimo
+# miLista = ["Fizz"*(n % 3 == 0) + "Buzz"*(n % 5 == 0) or n for n in range(1,21)]
+
+# print(bool(""))
+# print(bool(0))
+# print(bool([]))
+
+# print(0 or "")
+
+#print(miLista)
